@@ -4,4 +4,4 @@ Iniciei estudos em React em junho/2022, esse foi um pequeno produto desse estudo
 
 ## English
 
-This simple single page app was made as an initial exercise for learning React. It is fully functional, even though it doesn't do that much at all. It's design is really minimalist, Notion-like. It memorizes the list you made with LocalStorage.
+This simple single page app was made as an initial exercise for learning React. It is fully functional, even though it doesn't do that much at all. Its design is really minimalist, Notion-like. It memorizes the list you made with LocalStorage.
