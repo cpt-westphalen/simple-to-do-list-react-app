@@ -26,7 +26,7 @@ export default function App() {
 
 	return (
 		<div className="App">
-			<h1>Simple To-do</h1>
+			<h1 data-testid="main-heading">Simple To-do</h1>
 			<p>Today I'm going to... </p>
 			<UserInput addTask={addTask} />
 			<TaskList
@@ -34,7 +34,11 @@ export default function App() {
 				saveTasklistToLocalStorage={saveTasklistToLocalStorage}
 			/>
 			{tasklist.length > 0 && (
-				<button className="clear-done-btn" onClick={handleClickClear}>
+				<button
+					data-testid="clear-done-btn"
+					className="clear-done-btn"
+					onClick={handleClickClear}
+				>
 					Clear Done
 				</button>
 			)}
